@@ -32,7 +32,7 @@
         android:textColor="#2C7873"
         android:background="@drawable/rounded_edittext"
         android:padding="8dp"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="16dp" />
 
     <EditText
         android:id="@+id/email"
@@ -43,18 +43,33 @@
         android:textColor="#2C7873"
         android:background="@drawable/rounded_edittext"
         android:padding="8dp"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="16dp" />
 
-    <EditText
-        android:id="@+id/password"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Masukkan Password"
-        android:inputType="textPassword"
-        android:textColor="#2C7873"
-        android:background="@drawable/rounded_edittext"
-        android:padding="8dp"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp">
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Password"
+            android:inputType="textPassword"
+            android:textColor="#2C7873"
+            android:background="@drawable/rounded_edittext"
+            android:paddingRight="48dp"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/toggle_password_visibility"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_eye"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="1dp" />
+    </RelativeLayout>
 
     <Button
         android:id="@+id/register"
@@ -73,6 +88,7 @@
         android:layout_marginLeft="103dp"
         android:text="Sudah punya akun? Masuk"
         android:textColor="#2C7873"
+        android:background=""
         android:textSize="16sp" />
 
 </LinearLayout>
