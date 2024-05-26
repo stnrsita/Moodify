@@ -23,7 +23,7 @@ Moodify adalah aplikasi revolusioner yang dirancang untuk membantu Anda memahami
    - Moodify memberikan saran dan sumber daya yang disesuaikan dengan kebutuhan Anda, termasuk teknik relaksasi, latihan pernapasan, dan panduan untuk mencari bantuan profesional.
    - Sumber daya ini dirancang untuk membantu Anda mengelola emosi dengan lebih baik dan mendukung kesehatan mental Anda secara menyeluruh.
 
-**Manfaat Moodify:**
+## Manfaat Moodify:
 
 - **Kesadaran Emosional yang Lebih Baik:** Moodify membantu Anda menjadi lebih sadar akan perasaan Anda, memungkinkan Anda untuk mengenali dan mengelola emosi Anda dengan lebih efektif.
 - **Manajemen Emosi yang Efektif:** Dengan memahami pola emosi Anda, Moodify memberi Anda alat untuk mengelola suasana hati dan mengurangi stres.
